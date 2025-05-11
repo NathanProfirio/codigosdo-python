@@ -21,7 +21,7 @@ while opcao != 4:
         deposito = float(input("Qual o valor do deposito: "))
         if deposito > 0:
             saldo += deposito
-            extrato += "D4eposito: R${:.2f} \n".format(deposito)
+            extrato += "Deposito: R${:.2f} \n".format(deposito)
         else:
             print("\n{} \nValor inválido \n{} \n".format("="*50,"="*50))
 
